@@ -1,11 +1,9 @@
-import Layout from "@/components/layouts/Layout"
-
-const HomePage: React.FC = () => {
+const Home = () => {
   return (
-    <div>
-      
+    <div className="flex items-center justify-center h-screen bg-gray-100">
+      <h1> Welcome to Splash App </h1>
     </div>
-  )
+  );
 }
 
-export default HomePage;
+export default Home;
